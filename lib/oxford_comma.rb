@@ -1,5 +1,7 @@
 def oxford_comma(x)
-  x.split(",")
+  x.join
 end
 
-array = [twenty]
+array = ["fiddleheads","okra","kohlrabi"]
+
+oxford_comma(array)

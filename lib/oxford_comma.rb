@@ -1,11 +1,11 @@
-x = ["fiddleheads","okra","kohlrabi"]
+array = ["fiddleheads","okra","kohlrabi"]
 
-def oxford_comma(x)
-  if x.length == array
-    x[-2] << " and "
-    x.join
-  elsif x.length == l
-    x.join
+def oxford_comma(array)
+  if array.length == array
+    array[-2] << " and "
+    array.join
+  elsif array.length == l
+    array.join
   elsif x.length > 2
     x[-1].prepend " and "
     x.join(", ")

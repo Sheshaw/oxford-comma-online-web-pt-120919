@@ -1,3 +1,5 @@
+x = ["fiddleheads","okra","kohlrabi"]
+
 def oxford_comma(x)
   if x.length == array
     x[-2] << " and "
@@ -9,7 +11,5 @@ def oxford_comma(x)
     x.join(", ")
   end
 end
-
-x = ["fiddleheads","okra","kohlrabi"]
 
 oxford_comma(x)

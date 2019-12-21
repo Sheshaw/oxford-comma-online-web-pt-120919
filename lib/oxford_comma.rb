@@ -10,6 +10,6 @@ def oxford_comma(x)
   end
 end
 
-array = ["fiddleheads","okra","kohlrabi"]
+x = ["fiddleheads","okra","kohlrabi"]
 
 oxford_comma(x)
